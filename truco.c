@@ -181,7 +181,7 @@ int maior_carta(MESA *mesa){
             maior = i;
         }
     }
-    printf("maior:%d", maior);
+    printf("Maior Carta do jogador %d\nCarta:", maior);
     imprimir_carta(mesa->carta[maior]);
     return maior;
 }
