@@ -2,58 +2,58 @@
 
 void atribui_nome(BARALHO *baralho){
     //nomes de cartas que são numeros, é o propio numero, e as Q,J,K e A estão em maisculo.
-    strncpy(baralho->carta[0].nome_nipe,"4ouro",tamanho);
-    strncpy(baralho->carta[1].nome_nipe,"4copa",tamanho);
-    strncpy(baralho->carta[2].nome_nipe,"4espa",tamanho);
+    strncpy(baralho->carta[0].nome_nipe,"4*ouro",tamanho);
+    strncpy(baralho->carta[1].nome_nipe,"4$copa",tamanho);
+    strncpy(baralho->carta[2].nome_nipe,"4@espa",tamanho);
     
-    strncpy(baralho->carta[3].nome_nipe,"5paus",tamanho);
-    strncpy(baralho->carta[4].nome_nipe,"5ouro",tamanho);
-    strncpy(baralho->carta[5].nome_nipe,"5copa",tamanho);
-    strncpy(baralho->carta[6].nome_nipe,"5espa",tamanho);
+    strncpy(baralho->carta[3].nome_nipe,"5#paus",tamanho);
+    strncpy(baralho->carta[4].nome_nipe,"5*ouro",tamanho);
+    strncpy(baralho->carta[5].nome_nipe,"5$copa",tamanho);
+    strncpy(baralho->carta[6].nome_nipe,"5@espa",tamanho);
     
-    strncpy(baralho->carta[7].nome_nipe,"6paus",tamanho);
-    strncpy(baralho->carta[8].nome_nipe,"6ouro",tamanho);
-    strncpy(baralho->carta[9].nome_nipe,"6copa",tamanho);
-    strncpy(baralho->carta[10].nome_nipe,"6espa",tamanho);
+    strncpy(baralho->carta[7].nome_nipe,"6#paus",tamanho);
+    strncpy(baralho->carta[8].nome_nipe,"6*ouro",tamanho);
+    strncpy(baralho->carta[9].nome_nipe,"6$copa",tamanho);
+    strncpy(baralho->carta[10].nome_nipe,"6@espa",tamanho);
 
-    strncpy(baralho->carta[11].nome_nipe,"7paus",tamanho);
-    strncpy(baralho->carta[12].nome_nipe,"7espa",tamanho);
+    strncpy(baralho->carta[11].nome_nipe,"7#paus",tamanho);
+    strncpy(baralho->carta[12].nome_nipe,"7@espa",tamanho);
 
-    strncpy(baralho->carta[13].nome_nipe,"Qpaus",tamanho);
-    strncpy(baralho->carta[14].nome_nipe,"Qouro",tamanho);
-    strncpy(baralho->carta[15].nome_nipe,"Qcopa",tamanho);
-    strncpy(baralho->carta[16].nome_nipe,"Qespa",tamanho);
+    strncpy(baralho->carta[13].nome_nipe,"Q#paus",tamanho);
+    strncpy(baralho->carta[14].nome_nipe,"Q*ouro",tamanho);
+    strncpy(baralho->carta[15].nome_nipe,"Q$copa",tamanho);
+    strncpy(baralho->carta[16].nome_nipe,"Q@espa",tamanho);
 
-    strncpy(baralho->carta[17].nome_nipe,"Jpaus",tamanho);
-    strncpy(baralho->carta[18].nome_nipe,"jouro",tamanho);
-    strncpy(baralho->carta[19].nome_nipe,"Jcopa",tamanho);
-    strncpy(baralho->carta[20].nome_nipe,"Jespa",tamanho);
+    strncpy(baralho->carta[17].nome_nipe,"J#paus",tamanho);
+    strncpy(baralho->carta[18].nome_nipe,"j*ouro",tamanho);
+    strncpy(baralho->carta[19].nome_nipe,"J$copa",tamanho);
+    strncpy(baralho->carta[20].nome_nipe,"J@espa",tamanho);
 
-    strncpy(baralho->carta[21].nome_nipe,"Kpaus",tamanho);
-    strncpy(baralho->carta[22].nome_nipe,"Kouro",tamanho);
-    strncpy(baralho->carta[23].nome_nipe,"Kcopa",tamanho);
-    strncpy(baralho->carta[24].nome_nipe,"Kespa",tamanho);
+    strncpy(baralho->carta[21].nome_nipe,"K#paus",tamanho);
+    strncpy(baralho->carta[22].nome_nipe,"K*ouro",tamanho);
+    strncpy(baralho->carta[23].nome_nipe,"K$copa",tamanho);
+    strncpy(baralho->carta[24].nome_nipe,"K@espa",tamanho);
 
-    strncpy(baralho->carta[25].nome_nipe,"Apaus",tamanho);
-    strncpy(baralho->carta[26].nome_nipe,"Aouro",tamanho);
-    strncpy(baralho->carta[27].nome_nipe,"Acopa",tamanho);
+    strncpy(baralho->carta[25].nome_nipe,"A#paus",tamanho);
+    strncpy(baralho->carta[26].nome_nipe,"A*ouro",tamanho);
+    strncpy(baralho->carta[27].nome_nipe,"A$copa",tamanho);
    
 
-    strncpy(baralho->carta[28].nome_nipe,"2paus",tamanho);
-    strncpy(baralho->carta[29].nome_nipe,"2ouro",tamanho);
-    strncpy(baralho->carta[30].nome_nipe,"2copa",tamanho);
-    strncpy(baralho->carta[31].nome_nipe,"2espa",tamanho);
+    strncpy(baralho->carta[28].nome_nipe,"2#paus",tamanho);
+    strncpy(baralho->carta[29].nome_nipe,"2*ouro",tamanho);
+    strncpy(baralho->carta[30].nome_nipe,"2$copa",tamanho);
+    strncpy(baralho->carta[31].nome_nipe,"2@espa",tamanho);
 
-    strncpy(baralho->carta[32].nome_nipe,"3paus",tamanho);
-    strncpy(baralho->carta[33].nome_nipe,"3ouro",tamanho);
-    strncpy(baralho->carta[34].nome_nipe,"3copa",tamanho);
-    strncpy(baralho->carta[35].nome_nipe,"3espa",tamanho);
+    strncpy(baralho->carta[32].nome_nipe,"3#paus",tamanho);
+    strncpy(baralho->carta[33].nome_nipe,"3*ouro",tamanho);
+    strncpy(baralho->carta[34].nome_nipe,"3$copa",tamanho);
+    strncpy(baralho->carta[35].nome_nipe,"3@espa",tamanho);
 
     //MANILHAS
-    strncpy(baralho->carta[36].nome_nipe,"Aespa",tamanho);
-    strncpy(baralho->carta[37].nome_nipe,"7ouro",tamanho);
-    strncpy(baralho->carta[38].nome_nipe,"7copa",tamanho);
-    strncpy(baralho->carta[39].nome_nipe,"4paus",tamanho);
+    strncpy(baralho->carta[36].nome_nipe,"A@espa",tamanho);
+    strncpy(baralho->carta[37].nome_nipe,"7*ouro",tamanho);
+    strncpy(baralho->carta[38].nome_nipe,"7$copa",tamanho);
+    strncpy(baralho->carta[39].nome_nipe,"4#paus",tamanho);
 }
 
 void atribui_valor(BARALHO *baralho){
