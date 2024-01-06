@@ -174,7 +174,7 @@ void cria_mesa(JOGADOR *jogador, MESA *mesa, int indice){
     mesa->num_rodadas = 0;
 }
 int maior_carta(MESA *mesa){
-    /*retorna o indice da maior carta na mesa que é o indice do jogador que a jogou*/
+    /*retorna o indice do jogador que possui a maior carta na mesa*/
     int maior = 0;
     for(int i = 1; i < 2; i++){
         if(mesa->carta[i].valor > mesa->carta[maior].valor){
