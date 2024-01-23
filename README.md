@@ -3,11 +3,13 @@ Jogo de Truco online simples em C
 
 Como executar: 
 
+Parte do Servidor
 server.c:
 
 gcc server.c -o server
 ./server 5000
 
+Parte do Cliente
 client.c:
 
 gcc client.c -o client
