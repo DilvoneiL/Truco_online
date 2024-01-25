@@ -1,6 +1,7 @@
 # Truco_online
-Jogo de Truco online simples em C 
+Jogo de Truco online simples em C, executado no terminal.
 
+(linux)
 Como executar: 
 
 Parte do Servidor
